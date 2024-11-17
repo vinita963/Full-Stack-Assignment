@@ -1,0 +1,51 @@
+/* frontend/src/pages/RegisterPage.css */
+
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #4a90e2;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-form input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+  }
+  
